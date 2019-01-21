@@ -1,0 +1,29 @@
+/*******************************************************************************
+/* Main style sheet for project0
+/* 
+/* author: Chris Mason <chrismason285@gmail.com>
+*******************************************************************************/
+
+@import "./bootstrap_overrides";
+
+//h1 {
+    //font-family: 'Roboto', sans-serif;
+//}
+
+#header-band {
+    padding: 0;
+    margin: 0;
+    
+    position: relative;
+    & > .container {
+        display: flex;
+        padding: 0;
+    }
+    & > h1 {
+        background-color: rgb(57, 134, 250);
+        align-content: center;
+        text-align: center;
+        vertical-align: middle;
+        min-height: 100px;
+    }
+}
